@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="@color/colorButtons"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+                <RelativeLayout
+                    android:id="@+id/relative"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="false"
+                        android:layout_alignParentTop="false"
+                        android:layout_alignParentRight="false"
+                        android:layout_centerInParent="true"
+                        android:autoText="false"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:longClickable="false"
+                        android:singleLine="false"
+                        android:soundEffectsEnabled="true"
+                        android:text="EN QUE CONSISTE"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        app:fontFamily="casual" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:text="ESTE SISTEMA UATOMATIZADO ES UNA VERSION DIGITAL DEL TEST DE ORIENTACIÓN VOCACIONAL KUDER. NO USEMOS MAS HOJAS!"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="DE ACUERDO A TUS RESPUESTAS OBTENDRÁS UN INFORME CON UN PERFIL APROXIMADO DE TUS INTERESES I HABILIDADES DESTACADAS."
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="LOS INTERESES SON INCLINACIONES O DISPOSICIONES NATURALES QUE TENEMOS LAS PERSONAS HACIA UNA O VARIAS ACTIVIDADES. OBJETOS O INDIVIDUOS. PODEMOS TENER MUCHOS O VARIOS INTERESES Y, GRACIAS A ELLOS. EL TRABAJO O LAS ACTIVIDADES QUE DESARROLLAMOS NOS RESULTA PLACENTERA. POR EJEMPLO, JUGAR ALGUN DEPORTE, ESCRIBIR CUENTOS, COLECCIONAR."
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="LAS APTITUDES SON CAPACIDADES QUE TENEMOS LAS PERSONAS PARA REALIZAR DETERMINADAS ACTIVIDADES. SON HABILIDADES DESARROLLADAS MEDIANTE LA PRACTICA Y LA REPETICION. SE APRENDE Y SE ENTRENAN. POR EJEMPLO, LA MEMORIA, LA CONCENTRACIÓN, LA DESTREZA MANUAL."
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="A CONTINUACIÓN TE LISTAMOS POSIBLES CARRERAS PARA CADA AREA, AUNQUE TE RECOMENDAMOS QUE HAGAS UNA BUSQUEDA EN INTERNET EN FUNCION DEL RESULTADO, BASANDONOS EN INTERESES."
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="ACTIVIDAD AL AIRE LIBRE"
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="INGENIER@S AGRÓNOM@S, INGENIER@S FORESTALES, INGENIER@S DE MINAS, INGENIER@S HAMBIENTALES, GEÓLOGOS, OFICIALES DEL EJÉRCITO, MARINA, POLICIA, PROFESOR@S DE EDUCACION FÍSICA"
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="MECÁNICO CONSTRUCTIVO"
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="INGENIER@S SISTEMAS, INGENIER@S CIVILES, INGENIER@S ELECTRICISTAS, INGENIER@S INDUSTRIALES, INGENIER@S MECÁNICOS, INGENIER@S QUÍMICOS, AVIADORES."
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="CÁLCULO"
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="AUDITOR@S, CONTADORES PUBLICOS, ECONOMISTAS, ESTADISTICA, MATEMÁTICAS, FUNCIONARIOS BANCARIOS."
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="CIENTÍFICO"
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="FÍSIC@S, MEDICINA, ODONTOLOGIA, PSICÓLOGIA, QUIMICA, TECNICOS DE LABORATORIO"
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="PERSUASIVO"
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="DERECHO, ADMINISTRACIÓN DE EMPRESAS, NEGOCIOS, PERIODISTA, POLITICOS, AGENTES DE PUBLICIDAD"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="ARTÍSTICO PLÁSTICO"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="ARQUITECTURA, DIBUJANTES, ESCULTOR, PINTOR"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="LITERARIO"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="PROFESORES (LETRAS), PERIODISTA, LINGUISTA, ESCRITORES"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="MUSICAL"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="COMPOSITORES, MÚSICOS, PROFESORES DE MÚSICA, DANZA"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="SERVICIO SOCIAL"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="ENFERMER@S, MEDICINA, PEDAGOG@S EN GENERAL, TRABAJO SOCIAL"
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="TRABAJO DE OFICINA"
+                app:fontFamily="casual" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="INGENIERIA DE SISTEMAS, INGENIERIA INFOMÁTICA, CONTABILIDAD, SECRETARI@, MANEJO DE COMPUTADORAS, CONTADORES"
+                 app:fontFamily="casual" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
